@@ -1,21 +1,38 @@
 # Project Name
 
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Brai Frauen, Heather Palmer
+**Version**: 1.0.4 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This is blog app that we organized using handlebars
+
+Convert your existing HTML template into a Handlebars template.
+We refactor the functions and methods to use ES6 arrow functions when possible.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Clone repo
+2. Open index.html
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+HTML, CSS, JavaScript, jQuery, and Handlebars
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+Author: Heather Palmer
+Date:   Fri Aug 17 12:24:26 2018 -0700
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+    Answered sort question
 
+
+Author: Ashabrai Frauen <ashabraifrauen@yahoo.com>
+Date:   Fri Aug 17 11:58:13 2018 -0700
+
+    added things to index and js
+
+
+Author: Ashabrai Frauen <ashabraifrauen@yahoo.com>
+Date:   Fri Aug 17 10:32:42 2018 -0700
+
+    added handlebars on html
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Brai Frauen: https://github.com/ashabrai
+Heather Palmer: https://github.com/OGHP
