@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>Lab 4</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <link rel="stylesheet" href="vendor/styles/reset.css">
     <link rel="stylesheet" href="vendor/styles/icons.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
-    
+
     <script id="article-template" type="text/x-handlebars-template">
-      <article class="card" data-category= {{category}}>
+      <article data-author="{{author}}" data-category={{category}}>
         <header>
           <h1>{{title}}</h1>
             <div>
@@ -20,8 +20,8 @@
               <time datetime={{publishedOn}}>{{publishStatus}}</time>
             </div>
           </header>
-            
-            <section>{{{body}}}</section>
+          <section class="article-body">{{{body}}}</section>
+          <a href="#" class="read-on">Read on &rarr;</a>
 
           </article>
     </script>
