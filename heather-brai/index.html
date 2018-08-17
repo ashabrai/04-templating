@@ -12,20 +12,17 @@
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
     
     <script id="article-template" type="text/x-handlebars-template">
-      <article class="clearfix" data-category="cat">
+      <article class="card" data-category= {{category}}>
         <header>
-          <h3>{{title}}</h3>
+          <h1>{{title}}</h1>
+            <div>
+              <address><a href={{authorUrl}}>{{author}}</a></address>
+              <time datetime={{publishedOn}}>{{publishStatus}}</time>
+            </div>
           </header>
-          <section>
-            {{#each attributes}}
-            <!-- <div>{{this}}</div> -->
-            <div>{{category}}</div>
-           <div>{{author}}</div>
-            <div>{{authorUrl}}</div>
-            <div>{{publishedOn}}</div>
-            <div>{{body}}</div>
-            {{/each}}
-          </section>
+            
+            <section>{{{body}}}</section>
+
           </article>
     </script>
 
